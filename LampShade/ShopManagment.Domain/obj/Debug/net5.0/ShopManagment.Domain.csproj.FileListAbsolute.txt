@@ -1,0 +1,17 @@
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Domain.deps.json
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Domain.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ref\ShopManagment.Domain.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Domain.pdb
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\0_Framework.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Application.Contracts.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Application.Contracts.pdb
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.csproj.AssemblyReference.cache
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.AssemblyInfoInputs.cache
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.AssemblyInfo.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.csproj.CopyComplete
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ref\ShopManagment.Domain.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.pdb
