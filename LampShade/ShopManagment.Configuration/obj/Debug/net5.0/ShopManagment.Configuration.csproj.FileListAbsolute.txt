@@ -2,11 +2,13 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configu
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagment.Configuration.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ref\ShopManagment.Configuration.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagment.Configuration.pdb
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\01_LampShadeQuery.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\0_Framework.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagment.Application.Contracts.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagment.Application.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagment.Domain.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagment.Infrastructure.EFCore.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\01_LampShadeQuery.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagment.Application.Contracts.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagment.Application.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagment.Infrastructure.EFCore.pdb

@@ -14,6 +14,6 @@ namespace ShopManagment.Application.Contracts.ProductCategory
 
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
 
-
+        List<ProductCategoryViewModel> GetProductCategories();
     }
 }

@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Domain;
+using ShopManagment.Domain.ProductAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace ShopManagment.Domain.ProductCategoryAgg
 {
     public class ProductCategory : EntitiBase
     {
-        public string Name { get;private set; }
+        public string Name { get; private set; }
         public string Description { get; private set; }
 
         public string Picture { get; private set; }
@@ -18,14 +19,15 @@ namespace ShopManagment.Domain.ProductCategoryAgg
         public string Keywords { get; private set; }
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
+        public List<Product> Products { get; private set; }
 
         public ProductCategory()
         {
-
+            Products = new List<Product>();
         }
         public ProductCategory(string name, string description, string picture
                                 , string pictureAlt, string pictureTitle
-                                ,string keywords,string metadescription,string slug)
+                                , string keywords, string metadescription, string slug)
         {
             Name = name;
             Description = description;
@@ -35,9 +37,10 @@ namespace ShopManagment.Domain.ProductCategoryAgg
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metadescription;
+           
         }
 
-        public void Edit (string name, string description, string picture,
+        public void Edit(string name, string description, string picture,
                           string keywords, string metadescription, string slug
                           , string pictureAlt, string pictureTitle)
         {

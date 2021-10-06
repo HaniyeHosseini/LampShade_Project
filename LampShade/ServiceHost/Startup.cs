@@ -1,15 +1,17 @@
+using DiscountManagment.Configuratin;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using Microsoft.EntityFrameworkCore.Design;
 using ShopManagment.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using InventoryManagment.Infrastructure.Configuration;
 
 namespace ServiceHost
 {
@@ -28,7 +30,9 @@ namespace ServiceHost
             var connectionstring = Configuration.GetConnectionString("LampShadeDb");
             services.AddRazorPages();
 
-            ShopManagmentBootsraper.Configure(services,connectionstring);
+            ShopManagmentBootsrapper.Configure(services,connectionstring);
+            DiscountManagmentBootsrapper.Configure(services, connectionstring);
+            InventoryManagmentBootsrapper.Configure(services, connectionstring);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

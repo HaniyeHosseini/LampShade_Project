@@ -1,0 +1,12 @@
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\bin\Debug\net5.0\InventoryManagment.Application.deps.json
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\bin\Debug\net5.0\InventoryManagment.Application.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\bin\Debug\net5.0\ref\InventoryManagment.Application.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\bin\Debug\net5.0\InventoryManagment.Application.pdb
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\obj\Debug\net5.0\InventoryManagment.Application.csproj.AssemblyReference.cache
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\obj\Debug\net5.0\InventoryManagment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\obj\Debug\net5.0\InventoryManagment.Application.AssemblyInfoInputs.cache
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\obj\Debug\net5.0\InventoryManagment.Application.AssemblyInfo.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\obj\Debug\net5.0\InventoryManagment.Application.csproj.CoreCompileInputs.cache
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\obj\Debug\net5.0\InventoryManagment.Application.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\obj\Debug\net5.0\ref\InventoryManagment.Application.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Application\obj\Debug\net5.0\InventoryManagment.Application.pdb

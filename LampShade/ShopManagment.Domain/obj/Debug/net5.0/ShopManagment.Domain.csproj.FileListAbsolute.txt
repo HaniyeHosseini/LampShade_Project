@@ -1,4 +1,6 @@
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Domain.deps.json
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Domain.runtimeconfig.json
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Domain.runtimeconfig.dev.json
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Domain.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ref\ShopManagment.Domain.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\bin\Debug\net5.0\ShopManagment.Domain.pdb
@@ -15,3 +17,4 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ref\ShopManagment.Domain.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.pdb
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ShopManagment.Domain\obj\Debug\net5.0\ShopManagment.Domain.genruntimeconfig.cache

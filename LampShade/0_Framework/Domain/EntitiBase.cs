@@ -8,9 +8,9 @@ namespace _0_Framework.Domain
 {
    public class EntitiBase
     {
-        public long Id { get;  set; }
+        public long Id { get; private set; }
 
-        public DateTime CreationDate { get;  set; }
+        public DateTime CreationDate { get; private set; }
 
       
         public EntitiBase()
