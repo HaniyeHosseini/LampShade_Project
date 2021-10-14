@@ -1,4 +1,4 @@
-﻿ var SinglePage = {};
+﻿var SinglePage = {};
 
 SinglePage.LoadModal = function () {
     var url = window.location.hash.toLowerCase();
@@ -9,6 +9,7 @@ SinglePage.LoadModal = function () {
     $.get(url,
         null,
         function (htmlPage) {
+           
             $("#ModalContent").html(htmlPage);
             const container = document.getElementById("ModalContent");
             const forms = container.getElementsByTagName("form");
@@ -87,8 +88,7 @@ function CallBackHandler(data, action, form) {
         case "Refresh":
             if (data.isSuccedded) {
                 window.location.reload();
-            }
-            else {
+            } else {
                 alert(data.message);
             }
             break;

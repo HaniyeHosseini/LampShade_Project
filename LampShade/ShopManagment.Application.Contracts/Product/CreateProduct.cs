@@ -1,5 +1,6 @@
 ﻿
 using _0_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagment.Application.Contracts.ProductCategory;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -14,9 +15,7 @@ namespace ShopManagment.Application.Contracts.Product
         [Required(ErrorMessage = ValidationMessage.IsRequired)]
         public string Code { get; set; }
 
-        [Required(ErrorMessage = ValidationMessage.IsRequired)]
 
-        public double UnitPrice { get; set; }
 
 
         [Required(ErrorMessage = ValidationMessage.IsRequired)]
@@ -26,7 +25,10 @@ namespace ShopManagment.Application.Contracts.Product
 
         public string Description { get; set; }
 
-        public string Picture { get; set; }
+        [MaxFileSize(3 * 1024 * 1024, ErrorMessage = ValidationMessage.MaxFileSize)]
+        [FileExtentionLimitationAttribut(new string[] {"jpeg","jpg" , "png"},ErrorMessage =ValidationMessage.InvalidFileFormat)]
+
+        public IFormFile Picture { get; set; }
         public string PictureAlt { get; set; }
         public string PictureTitle { get; set; }
 

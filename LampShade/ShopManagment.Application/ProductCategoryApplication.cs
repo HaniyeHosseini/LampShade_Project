@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagment.Application.Contracts.ProductCategory;
 
 using ShopManagment.Domain.ProductCategoryAgg;
@@ -12,11 +13,13 @@ namespace ShopManagment.Application
 {
     public class ProductCategoryApplication : IProductCategoryApplication
     {
+        private readonly IFileUploader _fileUploader;
         private readonly IProductCategoryRepository _productCategoryRepository;
 
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUploader fileUploader)
         {
             _productCategoryRepository = productCategoryRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateProductCategory entiti)
@@ -26,8 +29,11 @@ namespace ShopManagment.Application
             { return operation.Failed(""); }
 
             var Slug = entiti.Slug.slufigy();
-                
-           var productCategory = new ProductCategory(entiti.Name, entiti.Description, entiti.Picture,
+
+            var path = $"{Slug}";
+            var fileName = _fileUploader.Upload(entiti.Picture, path);
+
+            var productCategory = new ProductCategory(entiti.Name, entiti.Description,fileName,
                entiti.PictureAlt, entiti.PictureTitle, entiti.Keywords, entiti.MetaDescription, Slug);
             _productCategoryRepository.Create(productCategory); 
             return operation.Succedded();
@@ -43,8 +49,10 @@ namespace ShopManagment.Application
                 return operation.Failed(ApplicationMessages.RecordNotFound);
             if (_productCategoryRepository.Exist(x => x.Name == entiti.Name && x.Id != entiti.Id))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
+            var pathPicture = $"{slug}";
+            var fileName = _fileUploader.Upload(entiti.Picture,pathPicture);
 
-            productcategory.Edit(entiti.Name, entiti.Description, entiti.Picture, entiti.Keywords,
+            productcategory.Edit(entiti.Name, entiti.Description,fileName, entiti.Keywords,
                 entiti.MetaDescription, slug, entiti.PictureAlt, entiti.PictureTitle);
 
             _productCategoryRepository.Save();

@@ -11,12 +11,13 @@ namespace InventoryManagment.Domain.InventoryAgg
 {
    public interface IInventoryRepository : IRepository<long , Inventory>
     {
-        Inventory GetBy(long productId);
+        Inventory GetByProductId(long productId);
         EditInventory GetDeatails(long id);
 
         List<InventoryViewModel> Search(InventorySearchModel search);
 
-       
+
+        List<InventoryOperationViewModel> GetOperationLog(long inventoryid);
 
 
     }

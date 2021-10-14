@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using InventoryManagment.Infrastructure.Configuration;
+using _0_Framework.Application;
 
 namespace ServiceHost
 {
@@ -33,6 +34,9 @@ namespace ServiceHost
             ShopManagmentBootsrapper.Configure(services,connectionstring);
             DiscountManagmentBootsrapper.Configure(services, connectionstring);
             InventoryManagmentBootsrapper.Configure(services, connectionstring);
+
+
+            services.AddTransient<IFileUploader, FileUploader>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

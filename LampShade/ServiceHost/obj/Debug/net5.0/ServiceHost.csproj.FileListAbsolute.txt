@@ -11,6 +11,7 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\ServiceHost.Views.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Elasticsearch.Net.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Humanizer.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
@@ -25,6 +26,7 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.Identity.Client.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
@@ -49,8 +51,12 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\System.Runtime.Caching.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\xunit.abstractions.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\xunit.core.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\xunit.execution.dotnet.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -125,6 +131,7 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagment.Domain.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagment.Infrastructure.EFCore.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagment.Application.Contracts.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagment.Application.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagment.Domain.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagment.Infrastructure.Configuration.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagment.Infrastructure.EFCore.dll
@@ -142,6 +149,7 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagment.Application.Contracts.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagment.Domain.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagment.Infrastructure.EFCore.pdb
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagment.Application.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagment.Application.Contracts.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagment.Domain.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagment.Infrastructure.EFCore.pdb
@@ -154,6 +162,7 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.AssemblyInfoInputs.cache
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.AssemblyInfo.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.RazorAssemblyInfo.cache
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.RazorAssemblyInfo.cs
@@ -170,6 +179,12 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Discounts\CustomerDiscount\Edit.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Discounts\CustomerDiscount\Index.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Index.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Inventory\Create.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Inventory\Edit.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Inventory\Increase.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Inventory\Index.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Inventory\OperationLog.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Inventory\Reduce.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Shared\_Menu.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminstration\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -190,6 +205,12 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductCategory.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Search.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArrivals\Default.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Menu\Default.cshtml.g.cs
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategory\Default.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Slide\Default.cshtml.g.cs
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs

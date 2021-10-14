@@ -13,7 +13,7 @@ namespace ShopManagment.Domain.ProductAgg
         EditProduct GetDeatails(long Id);
         List<ProductViewModel> Search(ProductpictureSearchModel search);
         List<ProductViewModel> GetProducts();
-
+        Product GetProductWithCategory(long id);
 
     }
 }

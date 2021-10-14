@@ -13,8 +13,7 @@ namespace ShopManagment.Domain.ProductAgg
     {
         public string Name { get; private set; }
         public string Code { get; private set; }
-        public double UnitPrice { get; private set; }
-        public bool IsInStock { get; private set; }
+   
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
         public string Picture { get; private set; }
@@ -35,15 +34,13 @@ namespace ShopManagment.Domain.ProductAgg
                 
         }
 
-        public Product(string name, string code, double unitPrice, string shortDescription, string description,
+        public Product(string name, string code, string shortDescription, string description,
             string picture, string pictureAlt, string pictureTitle, string keywords
             , string metaDescription, string slug, long categoryId)
         {
             Name = name;
             Code = code;
-            UnitPrice = unitPrice;
             ShortDescription = shortDescription;
-            IsInStock = true;
             Description = description;
             Picture = picture;
             PictureAlt = pictureAlt;
@@ -57,16 +54,18 @@ namespace ShopManagment.Domain.ProductAgg
 
 
 
-        public void Edit(string name, string code, double unitPrice, string shortDescription, string description,
+        public void Edit(string name, string code, string shortDescription, string description,
            string picture, string pictureAlt, string pictureTitle, string keywords
            , string metaDescription, string slug, long categoryId)
         {
             Name = name;
             Code = code;
-            UnitPrice = unitPrice;
+ 
             ShortDescription = shortDescription;
          
             Description = description;
+            if(!string.IsNullOrWhiteSpace(picture))
+
             Picture = picture;
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
@@ -78,14 +77,6 @@ namespace ShopManagment.Domain.ProductAgg
 
 
 
-        public void InStock()
-        {
-            IsInStock = true;
-        }
-
-        public void NotInStock()
-        {
-            IsInStock = false;
-        }
+     
     }
 }

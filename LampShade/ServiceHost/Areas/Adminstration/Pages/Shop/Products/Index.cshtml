@@ -66,9 +66,9 @@
                                     <th>کد</th>
                                     <th>گروه محصول </th>
 
-                                    <th>قیمت</th>
+                                 
                                     <th>تاریخ تولید</th>
-                                    <th>موجودی</th>
+                                  
                                     <th>عملیات</th>
                                 </tr>
                             </thead>
@@ -78,27 +78,20 @@
                                     <tr>
                                         <td>@item.Id</td>
                                         <td>
-                                            <img src="@item.Picture" style="width : 70px; height:70px" />
+                                            <img src="~/ProductPictures/@item.Picture" style="width : 70px; height:70px" />
                                         </td>
                                         <td>@item.Name</td>
                                         <td>@item.Code</td>
                                         <td>@item.Category</td>
-                                        <td>@item.UnitPrice</td>
+                                      
 
                                         <td>@item.CreationDate</td>
                                         <td class="text-center">
-                                            @if (item.IsInStock == true)
-                                            {
-                                                <i class="fa fa-check fa-3x text-success"></i>
-                                            }
-                                            else
-                                            {
-                                                <i class="fa fa-remove fa-3x text-danger"></i>
-                                            }
+                                         
                                         </td>
                                         <td>
 
-                                            <a class="btn btn-warning btn-custom waves-light m-b-5" href="#showmodal=@Url.Page("./Index","Edit", new { id=item.Id})"><i class="fa fa-edit"></i>ویرایش</a>
+                                            <a class="btn btn-warning btn-custom waves-light m-b-5"  href="#showmodal=@Url.Page("./Index","Edit", new { id=item.Id})"><i class="fa fa-edit"></i>ویرایش</a>
                                             @if (item.IsInStock == true)
                                             {
                                                 <a asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id" class="btn btn-danger btn-custom waves-light m-b-5">اتمام موجودی! </a>

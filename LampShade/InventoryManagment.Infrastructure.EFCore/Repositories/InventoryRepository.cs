@@ -1,4 +1,5 @@
-﻿using _0_Framework.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using InventoryManagment.Application.Contracts.Inventory;
 using InventoryManagment.Domain.InventoryAgg;
 using ShopManagment.Infrastructure.EFCore;
@@ -33,39 +34,59 @@ namespace InventoryManagment.Infrastructure.EFCore.Repositories
 
         public List<InventoryViewModel> Search(InventorySearchModel search)
         {
-            var products = shopContext.Products.Select(x=> new { x.Id , x.Name}).ToList();
-           var query= context.Inventory.Select(x => new InventoryViewModel()
+
+            var products = shopContext.Products.Select(x => new { x.Id, x.Name }).ToList();
+            var query = context.Inventory.Select(x => new InventoryViewModel
             {
-                InStock = x.InStock,
                 Id = x.Id,
-                ProductId = x.ProdctId,
                 UnitPrice = x.UnitPrice,
-                CurrentCount=x.CalculateCurrentCount(),
+                InStock = x.InStock,
+                 ProductId=x.ProdctId,
+                 CreationDate=x.CreationDate.ToFarsi(),
+                CurrentCount = x.CalculateCurrentCount(),
+              
             });
 
             if (search.ProductId > 0)
                 query = query.Where(x => x.ProductId == search.ProductId);
 
-            if (!search.InStock)
+            if (search.InStock)
                 query = query.Where(x => !x.InStock);
 
             var inventory = query.OrderByDescending(x => x.Id).ToList();
 
-
-            inventory.ForEach(item => 
-            {
-                item.Product = products.FirstOrDefault(x => x.Id == search.ProductId).Name;
-                
-            });
+            inventory.ForEach(item => item.Product = products.FirstOrDefault(x => x.Id == item.ProductId).Name);
 
             return inventory;
 
 
 
         }
-        public Inventory GetBy(long productid)
+        public  Inventory GetByProductId(long productId)
         {
-            return context.Inventory.FirstOrDefault(x => x.ProdctId == productid);
+            var inventory = context.Inventory.FirstOrDefault(x => x.ProdctId == productId);
+            return inventory;
+        }
+
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryid)
+        {
+            var inventory = context.Inventory.FirstOrDefault(x => x.Id == inventoryid);
+
+            return inventory.Operations.Select(x => new InventoryOperationViewModel()
+            {
+
+                Id = x.Id,
+                Count = x.Count,
+                CurrentCount = x.CurrentCount,
+                Description = x.Description,
+                Operation = x.Operation,
+                OperatorId = x.OperatorId,
+                OrderId = x.OrderId,
+                OperationDate=x.OperationDate.ToFarsi(),
+                Operator="مدیر سیستم",
+            }).OrderByDescending(x=>x.Id).ToList();
+
+
 
         }
     }

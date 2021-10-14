@@ -33,7 +33,7 @@ namespace InventoryManagment.Application
         public OperationResult Edit(EditInventory command)
         {
             var operationresult = new OperationResult();
-            var inventory = inventoryrepository.GetBy(command.Id);
+            var inventory = inventoryrepository.GetByProductId(command.ProductId);
             if (inventory == null)
                 return operationresult.Failed(ApplicationMessages.RecordNotFound);
 
@@ -52,11 +52,16 @@ namespace InventoryManagment.Application
             return inventoryrepository.GetDeatails(id);
         }
 
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryid)
+        {
+            return inventoryrepository.GetOperationLog(inventoryid);
+        }
+
         public OperationResult Increaes(IncreaseInventory command)
         {
             const long operatorid = 1;
             var operationresult = new OperationResult();
-            var inventory = inventoryrepository.GetBy(command.InventoryId);
+            var inventory = inventoryrepository.GetByProductId(command.ProductId);
             if (inventory == null)
                 return operationresult.Failed(ApplicationMessages.RecordNotFound);
 
@@ -73,7 +78,7 @@ namespace InventoryManagment.Application
             const long operatorid = 1;
             foreach (var item in command)
             {
-                var inventory = inventoryrepository.GetBy(item.ProductId);
+                var inventory = inventoryrepository.GetByProductId(item.ProductId);
                 inventory.Reduce(item.Count, operatorid, item.Description, item.OrderId);
             }
             inventoryrepository.Save();
@@ -83,13 +88,13 @@ namespace InventoryManagment.Application
 
         public OperationResult Reduce(ReduceInventory command)
         {
-
+          
             var operationresult = new OperationResult();
-            var inventory = inventoryrepository.GetBy(command.InventoryId);
+            var inventory = inventoryrepository.GetByProductId(command.ProductId);
             if (inventory == null)
                 return operationresult.Failed(ApplicationMessages.RecordNotFound);
 
-            inventory.Reduce(command.ProductId, operatorid, command.Description, 0;
+            inventory.Reduce(command.Count,0,command.Description,command.OrderId);
             inventoryrepository.Save();
             return operationresult.Succedded();
         }

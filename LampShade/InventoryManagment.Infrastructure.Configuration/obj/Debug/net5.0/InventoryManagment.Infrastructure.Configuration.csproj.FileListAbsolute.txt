@@ -4,12 +4,14 @@ C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.In
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagment.Infrastructure.Configuration.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\0_Framework.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagment.Application.Contracts.dll
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagment.Application.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagment.Domain.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagment.Infrastructure.EFCore.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagment.Application.Contracts.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagment.Domain.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagment.Infrastructure.EFCore.dll
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagment.Application.Contracts.pdb
+C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagment.Application.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagment.Domain.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagment.Infrastructure.EFCore.pdb
 C:\Users\R.M\source\repos\LampShade_Project\Code\LampShade\InventoryManagment.Infrastructure.Configuration\bin\Debug\net5.0\0_Framework.pdb

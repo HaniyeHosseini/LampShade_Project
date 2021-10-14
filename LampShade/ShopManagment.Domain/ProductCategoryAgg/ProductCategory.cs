@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Domain;
+using Microsoft.AspNetCore.Http;
 using ShopManagment.Domain.ProductAgg;
 using System;
 using System.Collections.Generic;
@@ -46,6 +47,7 @@ namespace ShopManagment.Domain.ProductCategoryAgg
         {
             Name = name;
             Description = description;
+            if(!string.IsNullOrWhiteSpace(picture))
             Picture = picture;
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;

@@ -62,28 +62,7 @@ namespace ServiceHost.Pages.Shop.Products
 
         }
 
-        public IActionResult OnGetNotInStock(long Id)
-        {
-           var result= productApplication.NotInStock(Id);
-            if (result.IsSuccedded)
-               return RedirectToPage("./Index");
-            else
-            {
-                Message = result.Message;
-                return RedirectToPage("./Index");
-            }
-        }
-        public IActionResult OnGetIsInStock(long Id)
-        {
-           var result= productApplication.InStock(Id);
-
-            if (result.IsSuccedded)
-                return RedirectToPage("./Index");
-            else
-            {
-                Message = result.Message;
-                return RedirectToPage("./Index");
-            }
-        }
+      
+        
     }
 }
